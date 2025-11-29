@@ -335,6 +335,5 @@ You now have:
 * New cluster → Full restore
 * Data + PVCs + Apps all restored
 * Velero working end-to-end
-* A perfect demo for students
 
 
