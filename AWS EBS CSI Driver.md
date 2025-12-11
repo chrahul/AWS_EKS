@@ -276,15 +276,15 @@ kubernetes.io/aws-ebs (deprecated)
 
 | Item                 | Should Be                     | Verified? |
 | -------------------- | ----------------------------- | --------- |
-| EKS version          | 1.24+                         | ✔         |
-| EBS CSI Driver addon | ACTIVE                        | ✔         |
-| Node IAM Role        | `AmazonEBSCSIDriverPolicy`    | ✔         |
-| ebs-csi-controller   | Running 5/6                   | ✔         |
-| ebs-csi-node         | Running 3/3 on all nodes      | ✔         |
-| StorageClass         | provisioner = ebs.csi.aws.com | ✔         |
-| PVC binding          | Bound                         | ✔         |
-| PV                   | Bound to PVC                  | ✔         |
-| Pod                  | Running                       | ✔         |
+| EKS version          | 1.24+                         |          |
+| EBS CSI Driver addon | ACTIVE                        |         |
+| Node IAM Role        | `AmazonEBSCSIDriverPolicy`    |          |
+| ebs-csi-controller   | Running 5/6                   |          |
+| ebs-csi-node         | Running 3/3 on all nodes      |          |
+| StorageClass         | provisioner = ebs.csi.aws.com |          |
+| PVC binding          | Bound                         |          |
+| PV                   | Bound to PVC                  |          |
+| Pod                  | Running                       |          |
 
 ---
 
