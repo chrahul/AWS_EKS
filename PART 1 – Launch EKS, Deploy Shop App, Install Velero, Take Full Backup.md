@@ -526,7 +526,7 @@ Expected:
 
 * `default` → PROVIDER aws, BUCKET/PREFIX `$VELERO_BUCKET/velero`, PHASE `Available`
 
-If phase is `Available`, Velero can talk to S3 using IRSA. ✅
+If phase is `Available`, Velero can talk to S3 using IRSA. 
 
 ---
 
